@@ -1,0 +1,11 @@
+.img_container {
+  width: 100vw;
+  height: 700px;
+  box-sizing: border-box;
+  padding: 20px 40px;
+}
+
+.img_container > img {
+  width: 100%;
+  height: 100%;
+}

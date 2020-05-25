@@ -1,0 +1,79 @@
+h4 {
+  margin: 5px 0px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+}
+
+.sellProducts {
+  margin:100px 0px 40px 0px ;
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+.inputStyle {
+  box-sizing: border-box;
+  padding: 2px 0px 2px 4px;
+  outline: none;
+  border: 0.5px solid grey;
+  font-size: 13px;
+  margin: 5px 0px;
+}
+
+.dressData_container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+  box-sizing: border-box;
+}
+
+textarea {
+  max-width: 300px;
+  resize: none;
+}
+
+.sell_heading {
+  font-size: 22px;
+  font-style: italic;
+  box-sizing: border-box;
+  margin: 20px 0px;
+  text-align: center;
+  color: #484848;
+}
+
+input[type="file"] {
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .dressData_container {
+    display: flex;
+    margin: 30px 50px;
+    box-sizing: border-box;
+  }
+}
+
+
+.primaryBtn {
+  width: 300px;
+  max-width: 300px;
+  height: 40px;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #2d2d2d;
+  border: 2px solid #dddddd;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.primaryBtn:hover {
+  background-color: #eeeeee;
+  font-weight: 800;
+}

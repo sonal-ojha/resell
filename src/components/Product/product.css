@@ -1,0 +1,41 @@
+.text {
+  color: #282c3f;
+  margin: 10px 0px;
+}
+.size {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.addToBag {
+  width: 120px;
+  height: 35px;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  margin: 5px 0px;
+  outline: none;
+  border: 1px solid #d4d5d9;
+  color: #282c3f;
+}
+.addToBag:hover {
+  border: 1px solid #535766
+}
+
+.alignCenter {
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  box-sizing: border-box;
+}
